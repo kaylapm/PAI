@@ -1,0 +1,9 @@
+# check type for q3a
+C:\Users\kayla\Documents\hashcat-7.1.2\hashcat-7.1.2>hashcat.exe q3a.txt --show
+# crack q3a (Keccak-256)
+C:\Users\kayla\Documents>.\hashcat-7.1.2\hashcat-7.1.2\hashcat.exe -m 17800 -a 0 q3a.txt rockyou.txt
+
+# check type for q3b
+C:\Users\kayla\Documents\hashcat-7.1.2\hashcat-7.1.2>hashcat.exe q3b.txt --show
+# crack q3b (MD5)
+C:\Users\kayla\Documents\hashcat-7.1.2\hashcat-7.1.2>hashcat.exe -m 0 -a 0 q3b.txt 
